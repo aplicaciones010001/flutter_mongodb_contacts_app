@@ -6,7 +6,7 @@ import 'contact.dart';
 import 'contacts_listing.dart';
 
 class ContactsScreen extends StatefulWidget {
-  ContactsScreen({Key key, this.title}) : super(key: key);
+  ContactsScreen({Key? key, required this.title}) : super(key: key);
 
   final String title;
   final ContactsApi api = ContactsApi();

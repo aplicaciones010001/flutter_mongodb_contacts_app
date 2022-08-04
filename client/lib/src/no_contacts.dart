@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class NoContacts extends StatelessWidget {
   final VoidCallback onAdd;
 
-  NoContacts({this.onAdd});
+  NoContacts({required this.onAdd});
 
   @override
   Widget build(BuildContext context) {

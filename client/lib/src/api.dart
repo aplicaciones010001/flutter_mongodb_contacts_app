@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import 'contact.dart';
 
 class ContactsApi {
-  final _dio = Dio(BaseOptions(baseUrl: 'http://localhost:8081/'));
+  final _dio = Dio(BaseOptions(baseUrl: 'http://localhost:27017/'));
 
   Future<List<Contact>> getContacts() async {
     final response = await _dio.get('');

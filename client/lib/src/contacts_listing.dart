@@ -8,7 +8,7 @@ class ContactsListing extends StatelessWidget {
   final VoidCallback onAdd;
   final Function(String id) onDelete;
 
-  ContactsListing({this.contacts, this.onAdd, this.onDelete});
+  ContactsListing({required this.contacts, required this.onAdd, required this.onDelete});
 
   @override
   Widget build(BuildContext context) {
